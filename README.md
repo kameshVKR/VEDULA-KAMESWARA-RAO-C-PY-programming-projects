@@ -21,6 +21,10 @@ Here are the specific implementation scripts included in this workspace:
 
 ### 🔁 Arrays & Flow Structures
 *   `arrays_loops_menus.c`: Demonstrates console menu selection mechanics controlled by interactive loops and multi-element arrays.
+  
+### 🔑 iam_core_emulator.c (Identity & Access Management Gate & Brute-Force Emulator)
+* **Core Concepts:** Cryptographic String Bounds Validation, Cyclic Flow Control Operations.
+* **Security Context:** Implements an Input Validation gateway enforcing a data policy requirement profile to mitigate Buffer Overflow threats. Simulates dictionary attacks to audit defensive policy efficacy.
 
 ---
 
