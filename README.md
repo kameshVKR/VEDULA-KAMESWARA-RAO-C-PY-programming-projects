@@ -25,6 +25,13 @@ Here are the specific implementation scripts included in this workspace:
 ### 🔑 iam_core_emulator.c (Identity & Access Management Gate & Brute-Force Emulator)
 * **Core Concepts:** Cryptographic String Bounds Validation, Cyclic Flow Control Operations.
 * **Security Context:** Implements an Input Validation gateway enforcing a data policy requirement profile to mitigate Buffer Overflow threats. Simulates dictionary attacks to audit defensive policy efficacy.
+### 🛡️ Secure Application Modules
+
+* **Defensive_Input_Sanitization_Buffer_Overflow_Mitigation_Module.c** : A secure Student Profile Registration System. It integrates strict age limits and identity validations to protect memory channels during record entry.
+  * **Academic Context:** Manages a student database object containing name, roll number, total marks, and academic credentials.
+  * **Defensive Security Context:** Implements input validation policies via string bounds checking (`strlen != 7`). This prevents oversized character payloads from overlapping adjacent memory fields, completely cutting off potential local Buffer Overflow vectors.
+
+
 
 ---
 
