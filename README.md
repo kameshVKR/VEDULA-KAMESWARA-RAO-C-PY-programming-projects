@@ -30,6 +30,36 @@ Here are the specific implementation scripts included in this workspace:
 * **Defensive_Input_Sanitization_Buffer_Overflow_Mitigation_Module.c** : A secure Student Profile Registration System. It integrates strict age limits and identity validations to protect memory channels during record entry.
   * **Academic Context:** Manages a student database object containing name, roll number, total marks, and academic credentials.
   * **Defensive Security Context:** Implements input validation policies via string bounds checking (`strlen != 7`). This prevents oversized character payloads from overlapping adjacent memory fields, completely cutting off potential local Buffer Overflow vectors.
+  * # Secure-Auth-Terminal-Bank
+
+A terminal-based banking application written in C designed to simulate core transaction management and demonstrate structural input validation and memory safety.
+
+## 📌 Project Overview
+This project models a localized bank branch utility system. It guides users through an identity validation process before opening up a financial ledger for account management. Rather than relying on unchecked script parameters, this application emphasizes programmatic string evaluation and clean arithmetic calculation paths.
+
+## 🛠️ Key Engineering Highlights
+* **Multi-Stage Authentication Mapping:** Built a secure lookup gate using text verification controls to dynamically check string boundaries (`strlen`) before granting access to accounting records.
+* **Stable Token Management:** Eliminated memory overlapping and variable shadowing bugs by applying a single-channel input string structure (`char choise`) to handle operational selections cleanly.
+* **Safe Memory Allocation:** Utilized pre-allocated 50-byte character array boundaries to map textual inputs securely without throwing compilation or hardware segment runtime crashes.
+* **Accurate Financial Arithmetic:** Developed proper operational evaluation tracks to compute credit and debit balances natively on the fly, eliminating negative data output errors during cash processing.
+
+## 💻 Tech Stack
+* **Language:** C (C99 / C11 Standard)
+* **Compiler Framework:** GCC (GNU Compiler Collection)
+* **Development Environment:** Visual Studio Code (VS Code)
+* **Core Libraries:** `<stdio.h>`, `<stdlib.h>`, `<string.h>`
+
+## 🚀 Execution & Compilation
+To compile and execute this file using a standard command-line terminal, run the following sequence:
+
+```bash
+# Compile the source program file
+gcc demo.c -o secure_bank
+
+# Run the compiled executable binary
+./secure_bank
+```
+
 
 
 
