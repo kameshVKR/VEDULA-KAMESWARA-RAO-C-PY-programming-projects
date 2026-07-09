@@ -30,10 +30,12 @@ Here are the specific implementation scripts included in this workspace:
 * **Defensive_Input_Sanitization_Buffer_Overflow_Mitigation_Module.c** : A secure Student Profile Registration System. It integrates strict age limits and identity validations to protect memory channels during record entry.
   * **Academic Context:** Manages a student database object containing name, roll number, total marks, and academic credentials.
   * **Defensive Security Context:** Implements input validation policies via string bounds checking (`strlen != 7`). This prevents oversized character payloads from overlapping adjacent memory fields, completely cutting off potential local Buffer Overflow vectors.
+  * ### 📂 Secure Audit Logging & Storage Engines
 
+* **Secure_Audit_Logger_Data_Ingestion_Module.c (Local Record Persistence Engine)**
+  * **Core Concepts:** Persistent File Stream I/O Frameworks, Multi-Cycle Buffer Appending, Data Deserialization.
+  * **Security Context:** Simulates a localized transactional Audit Log or SIEM ingestion pipeline. Implements sequential stream flushing via persistent append protocols (`a+`) to protect historical logs against unauthorized overwriting or manipulation vectors. Enforces read-only tracking boundaries (`r`) during verification phases to separate administrative data-writing privileges from standard execution scopes.
 
-
----
 
 ## 🛠️ Dev Environment & Tools Setup
 *   **Editor:** [Visual Studio Code](https://visualstudio.com)
