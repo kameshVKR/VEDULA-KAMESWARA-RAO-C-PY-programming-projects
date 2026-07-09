@@ -38,7 +38,7 @@ int main() {
         index++;
     }
 
-    // FOR LOOP (Fixed to cleanly operate loop bounds)
+    // FOR LOOP 
     for (i = 0; i < 10; i++) {
         printf("the value of i is %d\n", i);
     }

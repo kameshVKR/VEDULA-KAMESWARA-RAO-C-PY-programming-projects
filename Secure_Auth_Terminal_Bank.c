@@ -25,22 +25,21 @@ int main () {
             int bank_balance = 100000;
             int deposit1;
             int withdraw1;
-            char choise[20]; // FIXED: Added missing semicolon
+            char choise[20]; 
 
             printf("ENTER (deposit / withdraw): ");
-            scanf("%s", choise); // FIXED: Added missing '%' symbol
+            scanf("%s", choise); 
 
-            // FIXED: Added == 0 to properly execute when strings match perfectly
             if (strcmp(choise, "deposit") == 0) { 
                 printf("enter your amount here: ");
                 scanf("%d", &deposit1);
                 printf("new balance %d\n", bank_balance + deposit1);
             }
-            // FIXED: Changed to else if, passed 'choise', and added == 0
+           
             else if (strcmp(choise, "withdraw") == 0) { 
                 printf("enter your amount here: ");
                 scanf("%d", &withdraw1);
-                printf("new balance %d\n", bank_balance - withdraw1); // Perfectly interchanged!
+                printf("new balance %d\n", bank_balance - withdraw1); 
             }
             else {
                 printf("Invalid choice!\n");
