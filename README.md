@@ -1,4 +1,4 @@
-# 💻 Foundational C Programming Micro-Projects
+# 💻 Foundational C/PYTHON Programming Micro-Projects
 
 Welcome to my repository! My name is **Vedula (VKR) Kameswara Rao**, an incoming Bachelor of Technology student specializing in **Cyber Security** at [Geethanjali College of Engineering & Technology](https://gcet.edu.in) (2026 - 2030).
 
