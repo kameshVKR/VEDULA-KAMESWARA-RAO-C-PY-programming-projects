@@ -18,7 +18,7 @@ Here are the specific implementation scripts included in this workspace:
 ### 🧮 Calculators & Analyzers
 *   `calculator.c` & `micro_calculator.c`: Implements basic math engines handling arithmetic operation logic blocks.
 *   `number_analyzer.c`: Evaluates integers to extract value properties, sizes, and sign characteristics.
-
+*   `calculator.py` : Implements basic math engines handling arithmetic operation logic blocks.
 ### 🔁 Arrays & Flow Structures
 *   `arrays_loops_menus.c`: Demonstrates console menu selection mechanics controlled by interactive loops and multi-element arrays.
   
