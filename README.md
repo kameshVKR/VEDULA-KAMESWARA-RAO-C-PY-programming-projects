@@ -1,4 +1,4 @@
-# 💻 Foundational C Programming Micro-Projects
+# 💻 Foundational C/PYTHON Programming Micro-Projects
 
 Welcome to my repository! My name is **Vedula (VKR) Kameswara Rao**, an incoming Bachelor of Technology student specializing in **Cyber Security** at [Geethanjali College of Engineering & Technology](https://gcet.edu.in) (2026 - 2030).
 
@@ -18,7 +18,7 @@ Here are the specific implementation scripts included in this workspace:
 ### 🧮 Calculators & Analyzers
 *   `calculator.c` & `micro_calculator.c`: Implements basic math engines handling arithmetic operation logic blocks.
 *   `number_analyzer.c`: Evaluates integers to extract value properties, sizes, and sign characteristics.
-
+*   `calculator.py` : Implements basic math engines handling arithmetic operation logic blocks.
 ### 🔁 Arrays & Flow Structures
 *   `arrays_loops_menus.c`: Demonstrates console menu selection mechanics controlled by interactive loops and multi-element arrays.
   
@@ -48,6 +48,6 @@ Here are the specific implementation scripts included in this workspace:
 ## 📈 My Next Career Milestones
 *   [x] Establish Git repository architecture
 *   [x] Complete basic logic scripts (Arrays, Loops, Math Operations)
-*   [ ] Finish C Programming foundational training at institute
-*   [ ] Initialize Python Automation Course (Launching July 13th)
+*   [x]  Finish C Programming foundational training at institute
+*   [x]  Initialize Python Automation Course (Launching July 13th)
 *   [ ] Complete Google Cyber Security Professional Certificate Track
